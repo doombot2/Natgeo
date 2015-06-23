@@ -71,7 +71,6 @@ header {
     outline: none;
 }
 .categories {
-    display: inline-block;
     margin-top: 13px;
     margin-left: 12px;
     width: 126px;
@@ -283,7 +282,7 @@ header {
 }
 .middle-block_menu .menu-topic {
     float: left;
-    display: inline-block;
+
     margin-right: 6px;
     padding-left: 16px;
     padding-right: 16px;
@@ -406,7 +405,7 @@ header {
     background: url("../images/clock.png") no-repeat 2% 50%;
 }
 .middle-block_news .title-news {
-    display: inline-block;
+
     vertical-align: middle;
     margin-top: 5px;
     margin-left: 36px;
@@ -595,7 +594,7 @@ header {
     float: left;
 }
 .most-popular .arrows:first-of-type {
-    display: inline-block;
+
     float: left;
     margin-left: 35px;
     margin-top: 5px;
@@ -603,7 +602,7 @@ header {
     vertical-align: middle;
 }
 .most-popular .arrows:last-of-type {
-    display: inline-block;
+
     float: right;
     height: 20px;
     width: 35px;
@@ -695,8 +694,10 @@ header {
 }
 .user-actions {
     display: inline-block;
-    margin-top: 12px;
-    height: 32px;
+    margin-top: 0.75rem;
+    height: 2rem;
+    max-height: 32px;
+    min-width: 14em;
 
 }
 .shopping>p, .subscriptions>p {
@@ -705,7 +706,7 @@ header {
     font-size: 0.7em;
     text-transform: uppercase;
     padding-left: 5px;
-    line-height: 32px;
+    line-height: 2rem;
     vertical-align: middle;
 }
 .shopping>p a, .subscriptions>p a {
@@ -714,21 +715,18 @@ header {
 
 }
 .shopping {
-    display: inline-block;
     float: left;
     border: 1px solid #eeeeee;
-    width: 94px;
-    height: 30px;
-    margin-right: 8px;
+    width: 5.875rem;
+    height: 1.875rem;
     background: white;
 }
 .subscriptions {
-    display: inline-block;
     float: right;
-    margin-right: 0px;
+    margin-right: 0;
     border: 1px solid #eeeeee;
-    width: 116px;
-    height: 30px;
+    width: 7.25rem;
+    height: 1.875rem;
     background: white;
 
 }
@@ -746,7 +744,6 @@ header {
     border-radius: 3px;
     border: 1px solid #777777;
 }
-
 .check input {
     width: 18px;
     height: 18px;
@@ -777,24 +774,22 @@ header {
     vertical-align: middle;
 }
 .magazines-title .arrows:first-of-type {
-    display: inline-block;
     float: left;
-    margin-left: 647px;
-    margin-top: 5px;
+    margin-left: 40.4375em;
+    margin-top: 0.3125rem;
     height: 19px;
-    width: 38px;
+    width: 2.375rem;
     vertical-align: middle;
     text-align: center;
 }
 .magazines-title .arrows:last-of-type {
-    display: inline-block;
     float: right;
     height: 19px;
-    width: 38px;
-    max-width: 38px;
+    width: 2.375rem;
+
     border-left: 1px solid #eaeaea;
-    margin-top: 5px;
-    margin-right: 0px;
+    margin-top: 0.3125rem;
+    margin-right: 0;
     vertical-align: middle;
     text-align: center;
 }
@@ -851,7 +846,6 @@ header {
     text-indent: 2px;
 }
 .subscribe {
-    display: inline-block;
     float: right;
     border: 1px solid #eeeeee;
     border-right: none;
