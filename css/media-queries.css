@@ -1,6 +1,6 @@
 
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 800px) {
 
     body, .main-container, footer {
         display: block;
@@ -84,5 +84,11 @@
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+    }
+}
+@media screen and (max-width: 450px) {
+    .animals_column_second {
+        float: left;
+        margin-top: 20px;
     }
 }
